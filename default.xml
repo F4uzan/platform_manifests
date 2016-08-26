@@ -5,7 +5,8 @@
            fetch=".." />
   <default revision="refs/tags/android-7.0.0_r1"
            remote="aosp"
-           sync-j="4" />
+           sync-j="4"
+           sync-c="true" />
 
   <project path="build" name="platform/build" groups="pdk,tradefed" >
     <copyfile src="core/root.mk" dest="Makefile" />
